@@ -1,0 +1,82 @@
+/* make smooth transition */
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    position: relative;
+}
+
+.jumbotron{
+    background-image: url(src/DSC_1280.JPG);
+    background-size: cover;
+    height: 700px;
+}
+
+.jumbotron .display-4{
+    margin-top: 250px;
+}
+
+.nav-link{
+    font-size: small;
+}
+
+.btn{
+    border-radius: 14px;
+}
+
+.card-img-top{
+    display: block;
+    max-width: 100px;
+    height:auto;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #0000ff;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+}
+.carousel-indicators .active {
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    background-color: #000000;
+}
+
+.carousel-indicators {
+    bottom: -50px;
+}
+
+.carousel {
+    margin: 1.5rem;
+  }
+.carousel-inner {
+    height: auto;
+ }
+  
+.carousel-control-prev {
+    margin-left: -100px;
+ }
+  
+.carousel-control-next {
+    margin-right: -100px;
+ }
+ 
+.carousel-control-next-icon:after {
+   content: '>';
+   font-size: 55px;
+   color: blue;
+ }
+ 
+.carousel-control-prev-icon:after {
+   content: '<';
+   font-size: 55px;
+   color: blue;
+ }
